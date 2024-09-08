@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 110vh;
+  background: rgb(171,189,217);
+  background: linear-gradient(180deg, rgba(171,189,217,1) 29%, rgba(118,163,224,1) 92%);
+}
+.resume{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+form{
+  margin-left: 20px;
+}
+form label{
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+}
+form input{
+  padding: 5px 10px;
+  border: 2px solid rgb(29, 99, 219);
+  border-radius: 5px;
+}
+.btn{
+  padding: 10px 15px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(91, 141, 227);
+  border: none;
+}
+.download-cv-btn{
+  margin-left: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(91, 141, 227);
+  border: none;
+}
+.showData{
+  background-color: rgb(173, 165, 165);
+}
+#skill-desc{
+  resize: none;
+  width:200px;
+  height:100px;
+  border: 2px solid rgb(29, 99, 219);
+  border-radius: 5px;
+}
+.update-btn{
+  padding: 10px 15px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(91, 141, 227);
+  border: none;
+}
+.personal-Info , .Education , .skills{
+  padding: 8px;
+  background-color: rgb(130, 133, 137);
+  margin: 12px 0px 10px 0px;
+  color: white;
+}
+#showData{
+  width: 100%;
+  height: 80vh;
+}
+#showData p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 8px;
+  padding: 2px;
+}
+.update-btn {
+  margin-top: 20px;
+  margin-left: 40%;
+  border: 2px solid white;
+  padding: 15px 20px;
+}
+.download-cv-btn{
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 2px solid white;
+  padding: 15px 20px;
+}
